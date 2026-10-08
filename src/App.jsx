@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
-
   return (
     <>
-     <h1>Cafeteria Dublin</h1>
+      <Navbar />
+      <ItemListContainer greeting="¡Bienvenido a Cafeteria Dublin!" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,32 @@
+.navbar {
+  background-color: black;
+  min-height: 100px;
+  color: bisque;
+}
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.navbar__img {
+  width: 110px;
+  height: auto;
+}
+
+.navbar__a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 18px;
+}
