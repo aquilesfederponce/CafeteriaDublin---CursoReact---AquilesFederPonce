@@ -9,22 +9,22 @@ function Navbar() {
           <ul className="navbar__ul">
             <li className="navbar__li">
               <a className="navbar__a " href="">
-                Cafe en grano
+                Café en grano
               </a>
             </li>
             <li className="navbar__li">
               <a className="navbar__a " href="">
-                Panaderia
+                Panadería
               </a>
             </li>
             <li className="navbar__li">
               <a className="navbar__a " href="">
-                Pasteleria
+                Pastelería
               </a>
             </li>
             <li className="navbar__li">
               <a className="navbar__a " href="">
-                Catalogo de bebibas
+                Catálogo de bebibas
               </a>
             </li>
             <li className="navbar__li">
