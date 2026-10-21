@@ -1,3 +1,4 @@
+/*Navbar*/
 .navbar {
   background-color: black;
   min-height: 100px;
@@ -29,4 +30,72 @@
   text-decoration: none;
   color: bisque;
   font-size: 18px;
+}
+
+.navbar__a:hover {
+  color: chocolate;
+  transition: 0.3s ease-in-out;
+}
+
+/*Cart Widget*/
+.cartWidget {
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cartWidget__number {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/*Items e Items Container*/
+.Itemlist {
+  background-color: rgb(59, 57, 57);
+  min-height: 100vh;
+  text-align: center;
+  color: bisque;
+}
+
+.Itemlist__h1 {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.cafesCard__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cafesCard {
+  width: 380px;
+  height: 450px;
+  border-radius: 40px;
+  background-color: rgba(34, 34, 34);
+  border: 1px solid bisque;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cafesCard__h2 {
+  color: bisque;
+  font-size: 22px;
+}
+.cafesCard__p {
+  color: bisque;
+  font-size: 18px;
+}
+.cafesCard__img {
+  width: 120px;
+  height: 210px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  flex-shrink: 0;
 }
