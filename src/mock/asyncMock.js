@@ -99,3 +99,18 @@ function getProducts() {
 }
 
 export default getProducts;
+
+function getProductById(productId){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const filtrado = productos.find((item) => item.id === productId );
+            if(filtrado){
+                resolve(filtrado);
+            } else{
+                reject("No se encontro el producto");
+            }
+        }, 2000)
+    })
+}
+
+export {getProductById};
