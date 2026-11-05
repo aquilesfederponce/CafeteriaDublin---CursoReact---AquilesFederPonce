@@ -94,7 +94,7 @@ function getProducts() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(productos);
-        }, 2000);
+        }, 200);
     })
 }
 
@@ -109,7 +109,7 @@ function getProductById(productId){
             } else{
                 reject("No se encontro el producto");
             }
-        }, 2000)
+        }, 200)
     })
 }
 

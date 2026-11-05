@@ -14,3 +14,6 @@ Paso a describir los avances en esta pre-entrega. Como indicaba la consigna cree
 
 Actualización Pre-entrega 4:
 En esta nueva pre-entrega incorpore los componentes ItemDetailContainer.jsx, ItemDetail.jsx e ItemCount.jsx. El objetivo de esta pre-entrega era conformar un componente el cual se encargue de filtrar por id algun producto mi array de productos simulado en AsyncMock.js, para mostrar una interfaz independiente y al detalle de ese producto, es este caso el id 01 correspondiente a "Cafe Colombia". Ademas incorpore un contador para unidades en ItemCount.jsx con su propia logica. Por ultimo exporte el archivo ItemDetailContainer.jsx en App.jsx y todo funciono sin problemas.
+
+Actualización Pre-entrega 5:
+Logre enormes avances en esta preentrega. El proyecto ya tomo forma de E-Commerce real con la implementacion de Browser Routing, y los Navlinks. Logre implementar correctamente todo lo que la consigna pedia, con el filtrado dinamico utilizando useParams y con la variable :id en las rutas creadas. Agregue los componentes NotFound.jsx para rutas no halladas y un Footer.jsx con una estructura basica que junto con el Navbar, se muestran en cada ruta que se despliega. Por ultimo actualice todo el sitio al estilado mediante Tailwind para darle una apariencia mucho más prolija y elegante.
